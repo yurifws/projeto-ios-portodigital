@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2225EFF720B050B700DEE7B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EFF620B050B700DEE7B8 /* AppDelegate.swift */; };
+		2225EFF920B050B700DEE7B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EFF820B050B700DEE7B8 /* ViewController.swift */; };
+		2225EFFC20B050B700DEE7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2225EFFA20B050B700DEE7B8 /* Main.storyboard */; };
+		2225EFFE20B050B700DEE7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2225EFFD20B050B700DEE7B8 /* Assets.xcassets */; };
+		2225F00120B050B700DEE7B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2225EFFF20B050B700DEE7B8 /* LaunchScreen.storyboard */; };
+		2225F00C20B050B700DEE7B8 /* qualitapizzariaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225F00B20B050B700DEE7B8 /* qualitapizzariaTests.swift */; };
+		2225F01720B050B700DEE7B8 /* qualitapizzariaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225F01620B050B700DEE7B8 /* qualitapizzariaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2225F00820B050B700DEE7B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2225EFEB20B050B700DEE7B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2225EFF220B050B700DEE7B8;
+			remoteInfo = qualitapizzaria;
+		};
+		2225F01320B050B700DEE7B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2225EFEB20B050B700DEE7B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2225EFF220B050B700DEE7B8;
+			remoteInfo = qualitapizzaria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2225EFF320B050B700DEE7B8 /* qualitapizzaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qualitapizzaria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2225EFF620B050B700DEE7B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2225EFF820B050B700DEE7B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2225EFFB20B050B700DEE7B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2225EFFD20B050B700DEE7B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2225F00020B050B700DEE7B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2225F00220B050B700DEE7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2225F00720B050B700DEE7B8 /* qualitapizzariaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qualitapizzariaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2225F00B20B050B700DEE7B8 /* qualitapizzariaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qualitapizzariaTests.swift; sourceTree = "<group>"; };
+		2225F00D20B050B700DEE7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2225F01220B050B700DEE7B8 /* qualitapizzariaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qualitapizzariaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2225F01620B050B700DEE7B8 /* qualitapizzariaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qualitapizzariaUITests.swift; sourceTree = "<group>"; };
+		2225F01820B050B700DEE7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2225EFF020B050B700DEE7B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2225F00420B050B700DEE7B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2225F00F20B050B700DEE7B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2225EFEA20B050B700DEE7B8 = {
+			isa = PBXGroup;
+			children = (
+				2225EFF520B050B700DEE7B8 /* qualitapizzaria */,
+				2225F00A20B050B700DEE7B8 /* qualitapizzariaTests */,
+				2225F01520B050B700DEE7B8 /* qualitapizzariaUITests */,
+				2225EFF420B050B700DEE7B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2225EFF420B050B700DEE7B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2225EFF320B050B700DEE7B8 /* qualitapizzaria.app */,
+				2225F00720B050B700DEE7B8 /* qualitapizzariaTests.xctest */,
+				2225F01220B050B700DEE7B8 /* qualitapizzariaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2225EFF520B050B700DEE7B8 /* qualitapizzaria */ = {
+			isa = PBXGroup;
+			children = (
+				2225EFF620B050B700DEE7B8 /* AppDelegate.swift */,
+				2225EFF820B050B700DEE7B8 /* ViewController.swift */,
+				2225EFFA20B050B700DEE7B8 /* Main.storyboard */,
+				2225EFFD20B050B700DEE7B8 /* Assets.xcassets */,
+				2225EFFF20B050B700DEE7B8 /* LaunchScreen.storyboard */,
+				2225F00220B050B700DEE7B8 /* Info.plist */,
+			);
+			path = qualitapizzaria;
+			sourceTree = "<group>";
+		};
+		2225F00A20B050B700DEE7B8 /* qualitapizzariaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2225F00B20B050B700DEE7B8 /* qualitapizzariaTests.swift */,
+				2225F00D20B050B700DEE7B8 /* Info.plist */,
+			);
+			path = qualitapizzariaTests;
+			sourceTree = "<group>";
+		};
+		2225F01520B050B700DEE7B8 /* qualitapizzariaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2225F01620B050B700DEE7B8 /* qualitapizzariaUITests.swift */,
+				2225F01820B050B700DEE7B8 /* Info.plist */,
+			);
+			path = qualitapizzariaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2225EFF220B050B700DEE7B8 /* qualitapizzaria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2225F01B20B050B700DEE7B8 /* Build configuration list for PBXNativeTarget "qualitapizzaria" */;
+			buildPhases = (
+				2225EFEF20B050B700DEE7B8 /* Sources */,
+				2225EFF020B050B700DEE7B8 /* Frameworks */,
+				2225EFF120B050B700DEE7B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qualitapizzaria;
+			productName = qualitapizzaria;
+			productReference = 2225EFF320B050B700DEE7B8 /* qualitapizzaria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2225F00620B050B700DEE7B8 /* qualitapizzariaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2225F01E20B050B700DEE7B8 /* Build configuration list for PBXNativeTarget "qualitapizzariaTests" */;
+			buildPhases = (
+				2225F00320B050B700DEE7B8 /* Sources */,
+				2225F00420B050B700DEE7B8 /* Frameworks */,
+				2225F00520B050B700DEE7B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2225F00920B050B700DEE7B8 /* PBXTargetDependency */,
+			);
+			name = qualitapizzariaTests;
+			productName = qualitapizzariaTests;
+			productReference = 2225F00720B050B700DEE7B8 /* qualitapizzariaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2225F01120B050B700DEE7B8 /* qualitapizzariaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2225F02120B050B700DEE7B8 /* Build configuration list for PBXNativeTarget "qualitapizzariaUITests" */;
+			buildPhases = (
+				2225F00E20B050B700DEE7B8 /* Sources */,
+				2225F00F20B050B700DEE7B8 /* Frameworks */,
+				2225F01020B050B700DEE7B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2225F01420B050B700DEE7B8 /* PBXTargetDependency */,
+			);
+			name = qualitapizzariaUITests;
+			productName = qualitapizzariaUITests;
+			productReference = 2225F01220B050B700DEE7B8 /* qualitapizzariaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2225EFEB20B050B700DEE7B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Yuri Fernando Wanderley Silva";
+				TargetAttributes = {
+					2225EFF220B050B700DEE7B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2225F00620B050B700DEE7B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2225EFF220B050B700DEE7B8;
+					};
+					2225F01120B050B700DEE7B8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2225EFF220B050B700DEE7B8;
+					};
+				};
+			};
+			buildConfigurationList = 2225EFEE20B050B700DEE7B8 /* Build configuration list for PBXProject "qualitapizzaria" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2225EFEA20B050B700DEE7B8;
+			productRefGroup = 2225EFF420B050B700DEE7B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2225EFF220B050B700DEE7B8 /* qualitapizzaria */,
+				2225F00620B050B700DEE7B8 /* qualitapizzariaTests */,
+				2225F01120B050B700DEE7B8 /* qualitapizzariaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2225EFF120B050B700DEE7B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2225F00120B050B700DEE7B8 /* LaunchScreen.storyboard in Resources */,
+				2225EFFE20B050B700DEE7B8 /* Assets.xcassets in Resources */,
+				2225EFFC20B050B700DEE7B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2225F00520B050B700DEE7B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2225F01020B050B700DEE7B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2225EFEF20B050B700DEE7B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2225EFF920B050B700DEE7B8 /* ViewController.swift in Sources */,
+				2225EFF720B050B700DEE7B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2225F00320B050B700DEE7B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2225F00C20B050B700DEE7B8 /* qualitapizzariaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2225F00E20B050B700DEE7B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2225F01720B050B700DEE7B8 /* qualitapizzariaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2225F00920B050B700DEE7B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2225EFF220B050B700DEE7B8 /* qualitapizzaria */;
+			targetProxy = 2225F00820B050B700DEE7B8 /* PBXContainerItemProxy */;
+		};
+		2225F01420B050B700DEE7B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2225EFF220B050B700DEE7B8 /* qualitapizzaria */;
+			targetProxy = 2225F01320B050B700DEE7B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2225EFFA20B050B700DEE7B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2225EFFB20B050B700DEE7B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2225EFFF20B050B700DEE7B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2225F00020B050B700DEE7B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2225F01920B050B700DEE7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2225F01A20B050B700DEE7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2225F01C20B050B700DEE7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8Q49PHP24;
+				INFOPLIST_FILE = qualitapizzaria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.project.qualitapizzaria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2225F01D20B050B700DEE7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8Q49PHP24;
+				INFOPLIST_FILE = qualitapizzaria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.project.qualitapizzaria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2225F01F20B050B700DEE7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8Q49PHP24;
+				INFOPLIST_FILE = qualitapizzariaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.project.qualitapizzariaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qualitapizzaria.app/qualitapizzaria";
+			};
+			name = Debug;
+		};
+		2225F02020B050B700DEE7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8Q49PHP24;
+				INFOPLIST_FILE = qualitapizzariaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.project.qualitapizzariaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qualitapizzaria.app/qualitapizzaria";
+			};
+			name = Release;
+		};
+		2225F02220B050B700DEE7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8Q49PHP24;
+				INFOPLIST_FILE = qualitapizzariaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.project.qualitapizzariaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qualitapizzaria;
+			};
+			name = Debug;
+		};
+		2225F02320B050B700DEE7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8Q49PHP24;
+				INFOPLIST_FILE = qualitapizzariaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.project.qualitapizzariaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qualitapizzaria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2225EFEE20B050B700DEE7B8 /* Build configuration list for PBXProject "qualitapizzaria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2225F01920B050B700DEE7B8 /* Debug */,
+				2225F01A20B050B700DEE7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2225F01B20B050B700DEE7B8 /* Build configuration list for PBXNativeTarget "qualitapizzaria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2225F01C20B050B700DEE7B8 /* Debug */,
+				2225F01D20B050B700DEE7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2225F01E20B050B700DEE7B8 /* Build configuration list for PBXNativeTarget "qualitapizzariaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2225F01F20B050B700DEE7B8 /* Debug */,
+				2225F02020B050B700DEE7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2225F02120B050B700DEE7B8 /* Build configuration list for PBXNativeTarget "qualitapizzariaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2225F02220B050B700DEE7B8 /* Debug */,
+				2225F02320B050B700DEE7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2225EFEB20B050B700DEE7B8 /* Project object */;
+}
