@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F51EAA03BE80489C437D873 /* Pods_qualitapizzariaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2362F16850DE400832489F /* Pods_qualitapizzariaTests.framework */; };
+		220B084620C2E14800531D4C /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220B084520C2E14800531D4C /* Usuario.swift */; };
 		2225EFF720B050B700DEE7B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EFF620B050B700DEE7B8 /* AppDelegate.swift */; };
 		2225EFF920B050B700DEE7B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EFF820B050B700DEE7B8 /* ViewController.swift */; };
 		2225EFFC20B050B700DEE7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2225EFFA20B050B700DEE7B8 /* Main.storyboard */; };
@@ -14,6 +16,16 @@
 		2225F00120B050B700DEE7B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2225EFFF20B050B700DEE7B8 /* LaunchScreen.storyboard */; };
 		2225F00C20B050B700DEE7B8 /* qualitapizzariaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225F00B20B050B700DEE7B8 /* qualitapizzariaTests.swift */; };
 		2225F01720B050B700DEE7B8 /* qualitapizzariaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225F01620B050B700DEE7B8 /* qualitapizzariaUITests.swift */; };
+		2225F02520B050F200DEE7B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2225F02420B050F200DEE7B8 /* GoogleService-Info.plist */; };
+		2225F02720B0573F00DEE7B8 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225F02620B0573F00DEE7B8 /* RegistroViewController.swift */; };
+		2225F02920B05F2900DEE7B8 /* PedidosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225F02820B05F2900DEE7B8 /* PedidosViewController.swift */; };
+		2225F02B20B05F4D00DEE7B8 /* CarrinhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225F02A20B05F4D00DEE7B8 /* CarrinhoViewController.swift */; };
+		2225F02D20B05F6E00DEE7B8 /* AlterarDadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225F02C20B05F6E00DEE7B8 /* AlterarDadosViewController.swift */; };
+		222F13A520D54AA100A9B308 /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F13A420D54AA100A9B308 /* SobreViewController.swift */; };
+		2235D8D420C2CA8A0061A5A8 /* Pedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235D8D320C2CA8A0061A5A8 /* Pedido.swift */; };
+		2291BE0F20B0D9F800079D79 /* DetalhesPedidoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291BE0E20B0D9F800079D79 /* DetalhesPedidoViewController.swift */; };
+		38CB305845A50B22BD441787 /* Pods_qualitapizzariaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83651FE833BEA60350D71433 /* Pods_qualitapizzariaUITests.framework */; };
+		9CA3512D14868E82B9F004A6 /* Pods_qualitapizzaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5D69DB267E184887BB558F /* Pods_qualitapizzaria.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A7BAF19A1AF4BC218AB3D5F /* Pods-qualitapizzariaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qualitapizzariaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qualitapizzariaTests/Pods-qualitapizzariaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		12E169776F729E3B4924DDB1 /* Pods-qualitapizzariaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qualitapizzariaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-qualitapizzariaUITests/Pods-qualitapizzariaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		220B084520C2E14800531D4C /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		2225EFF320B050B700DEE7B8 /* qualitapizzaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qualitapizzaria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2225EFF620B050B700DEE7B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2225EFF820B050B700DEE7B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,21 @@
 		2225F01220B050B700DEE7B8 /* qualitapizzariaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qualitapizzariaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2225F01620B050B700DEE7B8 /* qualitapizzariaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qualitapizzariaUITests.swift; sourceTree = "<group>"; };
 		2225F01820B050B700DEE7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2225F02420B050F200DEE7B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2225F02620B0573F00DEE7B8 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		2225F02820B05F2900DEE7B8 /* PedidosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosViewController.swift; sourceTree = "<group>"; };
+		2225F02A20B05F4D00DEE7B8 /* CarrinhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrinhoViewController.swift; sourceTree = "<group>"; };
+		2225F02C20B05F6E00DEE7B8 /* AlterarDadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterarDadosViewController.swift; sourceTree = "<group>"; };
+		222F13A420D54AA100A9B308 /* SobreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
+		2235D8D320C2CA8A0061A5A8 /* Pedido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedido.swift; sourceTree = "<group>"; };
+		2291BE0E20B0D9F800079D79 /* DetalhesPedidoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesPedidoViewController.swift; sourceTree = "<group>"; };
+		83651FE833BEA60350D71433 /* Pods_qualitapizzariaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qualitapizzariaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A798E3BF8AA7F15A196CC539 /* Pods-qualitapizzaria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qualitapizzaria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qualitapizzaria/Pods-qualitapizzaria.debug.xcconfig"; sourceTree = "<group>"; };
+		BD2362F16850DE400832489F /* Pods_qualitapizzariaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qualitapizzariaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB5F81E9F00F2E7059266AF /* Pods-qualitapizzaria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qualitapizzaria.release.xcconfig"; path = "Pods/Target Support Files/Pods-qualitapizzaria/Pods-qualitapizzaria.release.xcconfig"; sourceTree = "<group>"; };
+		DC5D69DB267E184887BB558F /* Pods_qualitapizzaria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qualitapizzaria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41AA1212B8922C98A21E0F6 /* Pods-qualitapizzariaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qualitapizzariaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-qualitapizzariaTests/Pods-qualitapizzariaTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA1476C6252EB3762F2C713B /* Pods-qualitapizzariaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qualitapizzariaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qualitapizzariaUITests/Pods-qualitapizzariaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA3512D14868E82B9F004A6 /* Pods_qualitapizzaria.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F51EAA03BE80489C437D873 /* Pods_qualitapizzariaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CB305845A50B22BD441787 /* Pods_qualitapizzariaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +114,8 @@
 				2225F00A20B050B700DEE7B8 /* qualitapizzariaTests */,
 				2225F01520B050B700DEE7B8 /* qualitapizzariaUITests */,
 				2225EFF420B050B700DEE7B8 /* Products */,
+				DE8CE3460CA0020EB02ED6FC /* Pods */,
+				379171062C7392E5AC85C200 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +132,21 @@
 		2225EFF520B050B700DEE7B8 /* qualitapizzaria */ = {
 			isa = PBXGroup;
 			children = (
+				2225F02420B050F200DEE7B8 /* GoogleService-Info.plist */,
 				2225EFF620B050B700DEE7B8 /* AppDelegate.swift */,
 				2225EFF820B050B700DEE7B8 /* ViewController.swift */,
 				2225EFFA20B050B700DEE7B8 /* Main.storyboard */,
 				2225EFFD20B050B700DEE7B8 /* Assets.xcassets */,
 				2225EFFF20B050B700DEE7B8 /* LaunchScreen.storyboard */,
 				2225F00220B050B700DEE7B8 /* Info.plist */,
+				2225F02620B0573F00DEE7B8 /* RegistroViewController.swift */,
+				2225F02820B05F2900DEE7B8 /* PedidosViewController.swift */,
+				2225F02A20B05F4D00DEE7B8 /* CarrinhoViewController.swift */,
+				2225F02C20B05F6E00DEE7B8 /* AlterarDadosViewController.swift */,
+				2291BE0E20B0D9F800079D79 /* DetalhesPedidoViewController.swift */,
+				2235D8D320C2CA8A0061A5A8 /* Pedido.swift */,
+				220B084520C2E14800531D4C /* Usuario.swift */,
+				222F13A420D54AA100A9B308 /* SobreViewController.swift */,
 			);
 			path = qualitapizzaria;
 			sourceTree = "<group>";
@@ -125,6 +169,29 @@
 			path = qualitapizzariaUITests;
 			sourceTree = "<group>";
 		};
+		379171062C7392E5AC85C200 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC5D69DB267E184887BB558F /* Pods_qualitapizzaria.framework */,
+				BD2362F16850DE400832489F /* Pods_qualitapizzariaTests.framework */,
+				83651FE833BEA60350D71433 /* Pods_qualitapizzariaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8CE3460CA0020EB02ED6FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A798E3BF8AA7F15A196CC539 /* Pods-qualitapizzaria.debug.xcconfig */,
+				DBB5F81E9F00F2E7059266AF /* Pods-qualitapizzaria.release.xcconfig */,
+				0A7BAF19A1AF4BC218AB3D5F /* Pods-qualitapizzariaTests.debug.xcconfig */,
+				F41AA1212B8922C98A21E0F6 /* Pods-qualitapizzariaTests.release.xcconfig */,
+				FA1476C6252EB3762F2C713B /* Pods-qualitapizzariaUITests.debug.xcconfig */,
+				12E169776F729E3B4924DDB1 /* Pods-qualitapizzariaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2225F01B20B050B700DEE7B8 /* Build configuration list for PBXNativeTarget "qualitapizzaria" */;
 			buildPhases = (
+				3BE2F730F7AB20DB1444BEE4 /* [CP] Check Pods Manifest.lock */,
 				2225EFEF20B050B700DEE7B8 /* Sources */,
 				2225EFF020B050B700DEE7B8 /* Frameworks */,
 				2225EFF120B050B700DEE7B8 /* Resources */,
+				0A7CC7B60586DD62D44FD917 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2225F01E20B050B700DEE7B8 /* Build configuration list for PBXNativeTarget "qualitapizzariaTests" */;
 			buildPhases = (
+				B52BB346ACD4FCA570AA953F /* [CP] Check Pods Manifest.lock */,
 				2225F00320B050B700DEE7B8 /* Sources */,
 				2225F00420B050B700DEE7B8 /* Frameworks */,
 				2225F00520B050B700DEE7B8 /* Resources */,
@@ -167,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2225F02120B050B700DEE7B8 /* Build configuration list for PBXNativeTarget "qualitapizzariaUITests" */;
 			buildPhases = (
+				72875EE5B9EDB2C3F826AAE6 /* [CP] Check Pods Manifest.lock */,
 				2225F00E20B050B700DEE7B8 /* Sources */,
 				2225F00F20B050B700DEE7B8 /* Frameworks */,
 				2225F01020B050B700DEE7B8 /* Resources */,
@@ -233,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2225F00120B050B700DEE7B8 /* LaunchScreen.storyboard in Resources */,
+				2225F02520B050F200DEE7B8 /* GoogleService-Info.plist in Resources */,
 				2225EFFE20B050B700DEE7B8 /* Assets.xcassets in Resources */,
 				2225EFFC20B050B700DEE7B8 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +326,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A7CC7B60586DD62D44FD917 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-qualitapizzaria/Pods-qualitapizzaria-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qualitapizzaria/Pods-qualitapizzaria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BE2F730F7AB20DB1444BEE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qualitapizzaria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72875EE5B9EDB2C3F826AAE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qualitapizzariaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B52BB346ACD4FCA570AA953F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qualitapizzariaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2225EFEF20B050B700DEE7B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2235D8D420C2CA8A0061A5A8 /* Pedido.swift in Sources */,
+				2225F02B20B05F4D00DEE7B8 /* CarrinhoViewController.swift in Sources */,
 				2225EFF920B050B700DEE7B8 /* ViewController.swift in Sources */,
+				2225F02920B05F2900DEE7B8 /* PedidosViewController.swift in Sources */,
+				222F13A520D54AA100A9B308 /* SobreViewController.swift in Sources */,
+				2225F02720B0573F00DEE7B8 /* RegistroViewController.swift in Sources */,
+				220B084620C2E14800531D4C /* Usuario.swift in Sources */,
+				2225F02D20B05F6E00DEE7B8 /* AlterarDadosViewController.swift in Sources */,
+				2291BE0F20B0D9F800079D79 /* DetalhesPedidoViewController.swift in Sources */,
 				2225EFF720B050B700DEE7B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +585,7 @@
 		};
 		2225F01C20B050B700DEE7B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A798E3BF8AA7F15A196CC539 /* Pods-qualitapizzaria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +601,7 @@
 		};
 		2225F01D20B050B700DEE7B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB5F81E9F00F2E7059266AF /* Pods-qualitapizzaria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +617,7 @@
 		};
 		2225F01F20B050B700DEE7B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7BAF19A1AF4BC218AB3D5F /* Pods-qualitapizzariaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +635,7 @@
 		};
 		2225F02020B050B700DEE7B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41AA1212B8922C98A21E0F6 /* Pods-qualitapizzariaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +653,7 @@
 		};
 		2225F02220B050B700DEE7B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1476C6252EB3762F2C713B /* Pods-qualitapizzariaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +670,7 @@
 		};
 		2225F02320B050B700DEE7B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E169776F729E3B4924DDB1 /* Pods-qualitapizzariaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
