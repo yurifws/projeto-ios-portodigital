@@ -9,6 +9,4 @@ Criado uma interface com usuário mobile:
 
 Foi utilizado:
   - Swift
-  - Firebase
-    Authentication
-    RealTime Database
+  - Firebase(Authentication, RealTime Database).
